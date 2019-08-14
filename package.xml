@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+    <name>Nucleus_Support</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License v3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>In the Magento Admin merchants get access to Nucleus Support via support ticket or live chat with a developer.</summary>
+    <description>This extension enables merchants to submit a support ticket or live chat with Nucleus Support from inside their Magento Admin panel. Nucleus Support provides easy access to quality support without the commitment of a monthly retainer.&#xD;
+&#xD;
+Installing the extension does not make the merchant a Nucleus Support client. If a ticket is submitted or a live chat session is started, the Nucleus Support team will first ensure that the merchant has signed up for the service. &lt;a href="http://www.nucleussupport.com/"&gt;Nucleus Support&lt;/a&gt; is a pay-as-you-go Magento support service that is easy to use and requires no commitment. Once the client signs up for the service, Nucleus Support will debit hours spent on the ticket or time spent chatting from the prepaid balance. &#xD;
+&#xD;
+Nucleus Support is good for custom frontend and backend Magento development, bug fixes, Admin support, as well as extension installation and configuration. If Nucleus Support estimates a ticket to be 40 hours of work or more the team will be in touch to route that project to one of their trusted agency partners. Nucleus Support is also able to assist &lt;a href="http://www.nucleuscommerce.com/"&gt;Nucleus Commerce&lt;/a&gt; merchants.&#xD;
+&#xD;
+About Nucleus Support: &#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Once a merchant submits a ticket or starts a live chat, the Nucleus Support team will confirm the client has signed up for Nucleus Support. If they haven&#x2019;t, they will be directed to do so. &lt;/li&gt;&#xD;
+&lt;li&gt;Upon signing up and after receiving the first ticket or live chat request, the merchant will be charged for the first prepaid block of $750. Time spent working on tickets or chatting with the merchant in live chat will be deducted out of this prepaid balance at the rates of $75/hour for Level 1 and $150/hour for Level 2 with quarter hour billing increments. &lt;/li&gt;&#xD;
+&lt;li&gt;Level 1 is good for basic frontend changes, Magento Admin training, and basic Magento questions. All requests submitted will first be reviewed by the Level 1 team and if they fit within the scope of Level 1 then they will be billed at the rate of $75/hour. If a request is not Level 1, it will be automatically routed to the Level 2 team at the rate of $150/hour. &lt;/li&gt;&#xD;
+&lt;li&gt;If the prepaid balance reaches $0, the credit card on file will be charged for another block unless the client requests automatic billing be turned off for their account. If automatic billing is turned off, any outstanding work would be put on hold until another support block of $750 is approved. At any time the client will have the ability to login to view their used versus remaining prepaid balance and will also be able to login to the ticketing system to view tickets and submit additional requests. &lt;/li&gt;&#xD;
+&lt;li&gt;Once a merchant submits a ticket, they&#x2019;ll get initial ticket communication from a developer within 8 business hours. &lt;/li&gt;&#xD;
+&lt;li&gt;Live chat is good for basic Magento Admin questions and is billed at the Level 1 rate of $75/hour. If the Level 1 developer is not able to resolve a merchant&#x2019;s live chat request within 15 minutes, they will assist in creating a ticket. Live chat is support during Nucleus Support business hours, Monday-Friday 9-5 CT. &lt;/li&gt;&#xD;
+&lt;li&gt;Tickets and live chat requests are handled first-come, first-served with the exception of Urgent requests which are addressed immediately during business hours (Monday-Friday 9-5 CT) for double the hourly rate ($300/hour rather than $150/hour). Merchants must approve the Urgent rate before a ticket will be handled as such. &lt;/li&gt;&#xD;
+&lt;li&gt;Since tickets goes straight to a developer, merchants don't have to pay for project management like they would with a typical development retainer.&lt;/li&gt;&#xD;
+&lt;li&gt;Unused hours roll over to the next task and you can use hours anytime within 12 months of purchase.&lt;/li&gt;&#xD;
+&lt;li&gt;Nucleus Support is managed by Magento Certified Staff. &lt;/li&gt;&#xD;
+&lt;li&gt;For more information about Nucleus Support, click &lt;a href="http://www.nucleussupport.com/"&gt;here&lt;/a&gt;.&lt;/li&gt;&#xD;
+&lt;/ul&gt;</description>
+    <notes>Initial public release.</notes>
+    <authors><author><name>Nucleus Commerce</name><user>NucleusCommerce</user><email>hello@nucleuscommerce.com</email></author></authors>
+    <date>2015-12-30</date>
+    <time>21:22:45</time>
+    <contents><target name="magecommunity"><dir name="Nucleus"><dir name="Support"><dir><dir name="Block"><file name="Form.php" hash="1e4d6a9998aaefeaca0101a418619da0"/></dir><dir name="Helper"><file name="Data.php" hash="923e68a4c7e70ce451ac1fcb7785988f"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="NucleussupportController.php" hash="7fe81a40af7f2efeefcd15af14dc7261"/></dir></dir><dir name="etc"><file name="config.xml" hash="4ac47819cbac3e3cd84b201cb3559789"/></dir></dir><file name="CHANGELOG.md" hash="a65bc225257c75a192c002eaaa75f81d"/><file name="LICENSE.txt" hash="784a42c3b90a2b389f995d5615c26c2a"/><file name="README.md" hash="b16052559a5f9e5e987a9f7f2c5b8ed9"/></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="nucleus_support.xml" hash="db6276b1efced28daa95a90d2944a4f6"/></dir><dir name="template"><dir name="nucleus"><dir name="support"><file name="form.phtml" hash="6cd6d2dcc90c35826946600aae9c0234"/><file name="zopim-chat.phtml" hash="a9f4ce1c9723c98285314b02055cd32f"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Nucleus_Support.xml" hash="af8635f3400b4afcb14a95956b6cc361"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Nucleus_Support.csv" hash="3a381d16345831093774131efa0f6f82"/><dir name="template"><dir name="email"><dir name="nucleus"><dir name="support"><file name="request.html" hash="b5c80b9fae2e59df2f4dd725c27a1675"/><file name="requestResponsive.html" hash="8df80cba81d3b5b623fd15af1f10b6b6"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="nucleus"><dir name="support"><dir><dir name="images"><file name="nucleus-support-env.png" hash="f23803e91d46e02a034aec2dd0ffc2ad"/></dir></dir><file name="nucleus_support.css" hash="c58aab34dd57cc63b0eb0a3e70c3f162"/></dir></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="nucleus"><dir name="support"><file name="form.js" hash="08de5a7dc5e588df67f09c9fcc80b7e4"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>8.0.0</max></php></required></dependencies>
+</package>

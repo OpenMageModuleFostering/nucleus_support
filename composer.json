@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Nucleus_Support",
+    "type": "magento-module",
+    "license": "Open-Software-License-v3",
+    "homepage": "",
+    "description": "In the Magento Admin merchants get access to Nucleus Support via support ticket or live chat with a developer.",
+    "authors": [
+    {
+        "name": "Nucleus Commerce",
+        "email": "hello@nucleuscommerce.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
